@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slider-image {
+  width: 80%;
+  height: 78%;
+}
+@media screen and (max-width: 768px) {
+  .slider-image {
+    width: 405px;
+    height: 292px;
+  }
+}
+.planet-name {
+  color: #f8fafc;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.planet-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+}
